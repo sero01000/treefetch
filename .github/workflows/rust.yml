@@ -95,25 +95,25 @@ jobs:
           #   name: ${{ github.event.repository.name }}-x86_64-unknown-netbsd.tar.gz
           #   skip_tests: true
  
-          - os_name: Windows-x86_64
-            os: windows-latest
-            target: x86_64-pc-windows-msvc
-            bin: ${{ github.event.repository.name }}.exe
-            name: ${{ github.event.repository.name }}-x86_64-pc-windows-msvc.zip
+          # - os_name: Windows-x86_64
+          #   os: windows-latest
+          #   target: x86_64-pc-windows-msvc
+          #   bin: ${{ github.event.repository.name }}.exe
+          #   name: ${{ github.event.repository.name }}-x86_64-pc-windows-msvc.zip
 
-          - os_name: Windows-aarch64
-            os: windows-latest
-            target: aarch64-pc-windows-msvc
-            bin: ${{ github.event.repository.name }}.exe
-            name: ${{ github.event.repository.name }}-aarch64-pc-windows-msvc.zip
-            skip_tests: true
+          # - os_name: Windows-aarch64
+          #   os: windows-latest
+          #   target: aarch64-pc-windows-msvc
+          #   bin: ${{ github.event.repository.name }}.exe
+          #   name: ${{ github.event.repository.name }}-aarch64-pc-windows-msvc.zip
+          #   skip_tests: true
             
-          - os_name: Windows-i686
-            os: windows-latest
-            target: i686-pc-windows-msvc
-            bin: ${{ github.event.repository.name }}.exe
-            name: ${{ github.event.repository.name }}-i686-pc-windows-msvc-i686.zip
-            skip_tests: true
+          # - os_name: Windows-i686
+          #   os: windows-latest
+          #   target: i686-pc-windows-msvc
+          #   bin: ${{ github.event.repository.name }}.exe
+          #   name: ${{ github.event.repository.name }}-i686-pc-windows-msvc-i686.zip
+          #   skip_tests: true
           
           - os_name: macOS-x86_64
             os: macos-12
